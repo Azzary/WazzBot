@@ -1,0 +1,2 @@
+# WazzBot
+jni wakfu manipulation 
