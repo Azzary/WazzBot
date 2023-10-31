@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="JNI.cpp">
+      <Filter>JNI</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayerCharacter.cpp">
+      <Filter>JNI\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="WakfuGameEntity.cpp">
+      <Filter>JNI\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="JNI.h">
+      <Filter>JNI</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayerCharacter.h">
+      <Filter>JNI\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="WakfuGameEntity.h">
+      <Filter>JNI\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Include\MinHook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{0be6c711-52bb-421e-abbc-3fa3a9401787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JNI">
+      <UniqueIdentifier>{7cc44ef2-c068-4831-bbf5-fc7283a2bf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JNI\Class">
+      <UniqueIdentifier>{b580c0b5-b09a-4f47-9ceb-bf8dfc06727d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{097c8ae1-7d7b-4768-8b88-ebb5d76493ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
