@@ -18,3 +18,7 @@ class_instance = p_env->GetStaticObjectField(class_ptr, class_instance_field_id)
 - p_env->FindClass("aYA") recherche la classe Java "aYA", qui correspond a "WakfuGameEntity" dans le jeu Wakfu.
 - p_env->GetStaticFieldID(class_ptr, "d", "LaYA;") recupere l'ID du champ statique "d" de cette classe.
 - p_env->GetStaticObjectField(class_ptr, class_instance_field_id) recupere l'instance de la classe en utilisant l'ID du champ statique.
+
+## Video Demo
+
+Vous pouvez voir une démo [vidéo YouTube](https://www.youtube.com/watch?v=99u_XQiFkLs).
